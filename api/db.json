@@ -1,0 +1,53 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Current Account",
+      "balance": 17000
+    },
+    {
+      "id": 2,
+      "name": "Savings",
+      "balance": 15500
+    },
+    {
+      "name": "MEC",
+      "balance": 1000,
+      "id": 3
+    }
+  ],
+  "transactions": [
+    {
+      "date": "2022-03-12T04:56:49.754Z",
+      "description": "Transfer to MEC",
+      "debit": 5000,
+      "credit": null,
+      "accountId": 1,
+      "id": 1
+    },
+    {
+      "date": "2022-03-12T04:56:49.755Z",
+      "description": "Transfer from Current Account",
+      "debit": null,
+      "credit": 5000,
+      "accountId": 3,
+      "id": 2
+    },
+    {
+      "date": "2022-03-12T04:57:15.179Z",
+      "description": "Transfer to Current Account",
+      "debit": 2000,
+      "credit": null,
+      "accountId": 2,
+      "id": 3
+    },
+    {
+      "date": "2022-03-12T04:57:15.181Z",
+      "description": "Transfer from Savings",
+      "debit": null,
+      "credit": 2000,
+      "accountId": 1,
+      "id": 4
+    }
+  ]
+}
